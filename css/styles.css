@@ -1,0 +1,143 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #9bc2c2;
+  border-width: 10px;
+  width: 5%;
+  margin: 100px auto 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.top_container {
+  background-color: #EAF6F6;
+  height: auto;
+  position: relative;
+  padding-top: 90px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 20px 0 20px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-me {}
+
+.top_cloud {
+  position: absolute;
+  right: 420px;
+  top: 40px;
+}
+
+.bottom_cloud {
+  position: absolute;
+  bottom: 320px;
+  left: 430px;
+}
+
+.profile {}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer-science {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.football {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.piano {
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  box-shadow: 0 0 0 2px #66BFBF;
+  background: linear-gradient(to bottom, #66BFBF 5%, #476e9e 100%);
+  background-color: #66BFBF;
+  border-radius: 10px;
+  border: 1px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  padding: 12px 37px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #283966;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+  background-color: #476e9e;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
